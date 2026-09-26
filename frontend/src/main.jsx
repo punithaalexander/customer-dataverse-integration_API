@@ -12,8 +12,8 @@ const cognitoAuthConfig = {
     '5vturmag1k9k7c13gdbfb20o4h',
 
   redirect_uri:
-    'http://localhost:5173',
-
+  window.location.origin,
+  
   response_type:
     'code',
 
