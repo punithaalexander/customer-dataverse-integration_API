@@ -1,0 +1,246 @@
+.app {
+  min-height: 100vh;
+  background: #f5f7fa;
+  color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 24px 40px;
+}
+
+header h1 {
+  margin: 0 0 6px 0;
+  font-size: 30px;
+  color: #111827;
+}
+
+header p {
+  margin: 4px 0;
+  color: #6b7280;
+}
+
+main {
+  padding: 32px 40px;
+}
+
+main h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #111827;
+}
+
+/* Add Customer form */
+.customer-form {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 28px;
+  max-width: 700px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.customer-form h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.form-group input {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.primary-button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background: #1d4ed8;
+}
+
+.primary-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Customer table */
+.customer-table-container {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th {
+  background: #f9fafb;
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.customer-table td {
+  padding: 13px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+.customer-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.customer-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.edit-button,
+.delete-button {
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit-button {
+  background: #e0e7ff;
+  color: #3730a3;
+  margin-right: 8px;
+}
+
+.edit-button:hover {
+  background: #c7d2fe;
+}
+
+.delete-button {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.delete-button:hover {
+  background: #fecaca;
+}
+
+.customer-count {
+  margin: 20px 0 12px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Edit Customer form */
+.edit-customer-form {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 24px;
+  margin: 0 0 24px 0;
+  max-width: 700px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.edit-customer-form h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.cancel-button {
+  background: #ffffff;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 9px 18px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background: #f3f4f6;
+}
+
+/* Header */
+.app-header {
+  background: white;
+  padding: 24px 30px;
+  border-bottom: 1px solid #e5e7eb;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header h1 {
+  margin: 0 0 4px 0;
+  font-size: 28px;
+  color: #111827;
+}
+
+.app-header p {
+  margin: 0;
+  color: #6b7280;
+}
+
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.signed-in-status {
+  color: #15803d;
+  font-weight: 600;
+}
+
+.signout-button {
+  padding: 9px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: white;
+  color: #374151;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signout-button:hover {
+  background: #f3f4f6;
+}
