@@ -66,6 +66,7 @@ Microsoft Dataverse
 | GET | /customers/{id} | Get customer |
 | POST | /customers | Create customer |
 | PUT | /customers/{id} | Update customer |
+| DELETE | /customers/{id} | Delete customer |
 
 
 ## Project Structure
