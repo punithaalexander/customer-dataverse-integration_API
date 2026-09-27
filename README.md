@@ -83,16 +83,6 @@ customer-dataverse-integration_API/
         auth/
         tests/
 
-    infrastructure/
-
-    docs/
-        architecture.md
-        dataverse-setup.md
-        aws-setup.md
-        api-design.md
-        security.md
-
-
 ## Security
 
 Secrets must never be committed to this repository.
