@@ -50,7 +50,6 @@ Microsoft Dataverse
 - CloudFront
 - Secrets Manager
 - CloudWatch
-- SQS (future enhancement)
 
 ### Microsoft
 - Microsoft Entra ID
